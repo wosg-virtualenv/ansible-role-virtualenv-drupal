@@ -1,0 +1,26 @@
+---
+dependencies:
+  - virtualenv.git
+  - virtualenv.apache
+  - virtualenv.mysql
+  - virtualenv.php
+  - virtualenv.php-mysql
+  - virtualenv.composer
+  - virtualenv.drush
+
+galaxy_info:
+  author: virtualenv
+  description: Install Drupal - a world class CMS
+  company: ""
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.4
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  categories:
+    - development
+    - web
